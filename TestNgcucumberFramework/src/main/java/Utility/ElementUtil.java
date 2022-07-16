@@ -18,6 +18,7 @@ import Base.DriverManager;
 
 public class ElementUtil {
 	private WebDriver driver=DriverManager.getDriver();
+	
 	public static ElementUtil eu = new ElementUtil();
 	public void waitForPageLoad(WebDriver driver) {
 		WebDriverWait wait = new WebDriverWait(driver, Contants.small_wait);

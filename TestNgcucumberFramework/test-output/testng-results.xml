@@ -1,52 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="80073" started-at="2022-07-14T16:07:10 IST" finished-at="2022-07-14T16:08:30 IST">
+  <suite name="Default suite" duration-ms="2960" started-at="2022-07-17T00:14:48 IST" finished-at="2022-07-17T00:14:51 IST">
     <groups>
       <group name="cucumber">
         <method signature="CustomizeTestNGCucumberRunner.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.MyTestRunner@6b57696f]" name="runScenario" class="Base.CustomizeTestNGCucumberRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="80073" started-at="2022-07-14T16:07:10 IST" finished-at="2022-07-14T16:08:30 IST">
+    <test name="Default test" duration-ms="2960" started-at="2022-07-17T00:14:48 IST" finished-at="2022-07-17T00:14:51 IST">
       <class name="Runner.MyTestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.MyTestRunner@6b57696f]" name="setUpClass" is-config="true" duration-ms="1469" started-at="2022-07-14T16:07:10 IST" finished-at="2022-07-14T16:07:12 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.MyTestRunner@6b57696f]" name="setUpClass" is-config="true" duration-ms="2023" started-at="2022-07-17T00:14:48 IST" finished-at="2022-07-17T00:14:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.MyTestRunner@6b57696f]" name="runScenario" duration-ms="35826" started-at="2022-07-14T16:07:12 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:07:48 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["New contact add in vtiger application"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Testing Vtiger web application with add new contact and delete newly added contact]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.MyTestRunner@6b57696f]" name="runScenario" duration-ms="39029" started-at="2022-07-14T16:07:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-14T16:08:27 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["New created contact delete in vtiger application"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Testing Vtiger web application with add new contact and delete newly added contact]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.MyTestRunner@6b57696f]" name="tearDownClass" is-config="true" duration-ms="3668" started-at="2022-07-14T16:08:27 IST" finished-at="2022-07-14T16:08:30 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.MyTestRunner@6b57696f]" name="tearDownClass" is-config="true" duration-ms="879" started-at="2022-07-17T00:14:50 IST" finished-at="2022-07-17T00:14:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

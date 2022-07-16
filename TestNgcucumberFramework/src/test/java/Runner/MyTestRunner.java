@@ -4,11 +4,11 @@ import Base.CustomizeTestNGCucumberRunner;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = "src/test/resources/org/features/VtigerContacts.feature",
+		features = "src/test/resources/org/features/dmart.feature",
 		glue = {"stepDef","Hooks"},
 		monochrome=true,
 		dryRun=false,
-//		tags="Smoke",
+//		tags="Regression",
 		plugin = {"pretty",
 				"html:target/html_report/cucumber_reports.html",
 				"junit:target/junit_report/junit_reports.xml",

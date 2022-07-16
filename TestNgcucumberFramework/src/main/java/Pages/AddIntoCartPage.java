@@ -17,7 +17,7 @@ import Utility.ElementUtil;
 
 public class AddIntoCartPage {
 	
-	WebDriver driver;
+	private WebDriver driver;
 	
 	public AddIntoCartPage(WebDriver driver){
 		this.driver=driver;

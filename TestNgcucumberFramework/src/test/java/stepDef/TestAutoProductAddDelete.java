@@ -11,7 +11,7 @@ import io.cucumber.java.en.When;
 
 public class TestAutoProductAddDelete {
 	
-	private AddIntoCartPage gip_obj=new AddIntoCartPage(DriverManager.getDriver());
+	private AddIntoCartPage aip_obj=new AddIntoCartPage(DriverManager.getDriver());
 	private String ProductName;
 	private String ProductPrice;
 	private CartPage cp_obj;
@@ -26,19 +26,19 @@ public class TestAutoProductAddDelete {
 
 	@Given("^sort dresses by Evening dress, large and dressy$")
 	public void sort_dresses_by_Evening_dress_lasrge_and_dressy() {
-		gip_obj.selectDress();
+		aip_obj.selectDress();
 	    
 	}
 
 	@Given("^verify dress name and price$")
 	public void verify_dress_name_and_price() {
-	   this.ProductName=gip_obj.getDressName();
-	   this.ProductPrice=gip_obj.getDressPrice();
+	   this.ProductName=aip_obj.getDressName();
+	   this.ProductPrice=aip_obj.getDressPrice();
 	}
 
 	@When("^clicks on Add to cart$")
 	public void clicks_on_Add_to_cart() {
-		cp_obj=gip_obj.addTocart();
+		cp_obj=aip_obj.addTocart();
 		cp_obj.proceedToCheckout();
 	}
 
